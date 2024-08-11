@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SWAPI from '../components/swapi/SWAPI';
 import Navbar from '../components/navbar/Navbar';
+import '../styles/main.css';
 
 
 class Characters extends Component {
@@ -8,14 +9,14 @@ class Characters extends Component {
         return (
             <>
                 <Navbar />
-                <div>
-                    <main className="section">
+                <main >
+                    <div className="section">
                         <div className="container">
                             <SWAPI />
                         </div>
 
-                    </main>
-                </div>
+                    </div>
+                </main>
             </>
         );
     }

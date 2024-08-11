@@ -11,7 +11,7 @@ const Filter = ({ people }) => {
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [person, setPerson] = useState([]);
 
-    const categories = ['All', 'blue', 'red', 'brown', 'yellow', 'orange'];
+    const categories = ['All', 'blue', 'brown', 'yellow', 'orange'];
 
     // Фильтрация персонажей по выбранному цвету глаз
 

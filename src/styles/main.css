@@ -26,6 +26,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
     color: var(--text-color);
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -38,6 +39,9 @@ body {
     max-width: 1200px;
 
 }
+
+
+
 
 
 
